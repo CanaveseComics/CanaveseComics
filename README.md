@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-## ⚠️ IGNORARE COMPLETAMENTE IL PULSANTE "Compare & pull request". 
+## ⚠️ Ignorare il pulsante "Compare & pull request". 
 <!--
 **CanaveseComics/CanaveseComics** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
