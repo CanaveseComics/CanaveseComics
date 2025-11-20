@@ -22,3 +22,7 @@ Workflow:
 ⚠️ Nota:
 Questo branch NON è collegato al dominio ufficiale.
 Serve esclusivamente come ambiente di sviluppo e anteprima.
+
+❗ IMPORTANTE — NON FARE PULL REQUEST VERSO MAIN: ignorare eventuali messaggi di GitHub del tipo “Compare & pull request”.
+Sono suggerimenti automatici di GitHub e non devono essere utilizzati
+durante la fase attuale del progetto.
