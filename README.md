@@ -1,14 +1,11 @@
 # Branch di produzione 
 
-# Canavese Comics
-
-Questo branch contiene la versione del sito pubblicata su Netlify
-e visibile agli utenti attraverso il dominio ufficiale.
+Questo branch conterrá la versione definitiva del sito pubblicata su Github Pages (www.canavesecomics.com).
 
 Stato attuale:
-- La pagina “Coming Soon” è online tramite Netlify.
+- La pagina placeholder “Coming Soon” è online su Github Pages.
 - Il dominio e il certificato HTTPS sono correttamente configurati.
-- Tutto il codice viene gestito esclusivamente tramite GitHub.
+- Tutto il codice viene pushato da un git remote della repo di sviluppo.
 
 Quando lo sviluppo sarà completato nella repository dedicata,
 questa branch verrà aggiornata tramite *merge* dei file finali provenienti dal branch di sviluppo.
@@ -17,7 +14,7 @@ questa branch verrà aggiornata tramite *merge* dei file finali provenienti dal 
 
 ## Checklist produzione
 
-- [x] Pubblicare la pagina "Coming Soon" su Github Pages
+- [x] Pubblicare la pagina placeholder "Coming Soon" su Github Pages con il dominio ufficiale
 - [x] Collegare dominio e certificato HTTPS
 - [ ] Eseguire il merge dei file finali provenienti dalla repository di sviluppo
 - [ ] Verificare il sito completo sul dominio ufficiale
@@ -29,10 +26,15 @@ questa branch verrà aggiornata tramite *merge* dei file finali provenienti dal 
 ## Nota importante sull'uso di Netlify
 
 - Non caricare mai file manualmente su Netlify.
-- Non utilizzare la funzione "upload manuale" di Netlify.
-- Netlify viene utilizzato esclusivamente come piattaforma gestione del dominio.
-- Tutto il deploy avviene tramite GitHub:  
+- Netlify viene utilizzato esclusivamente come piattaforma per la gestione del dominio.
+- Tutto il deploy del codice frontend avviene tramite GitHub.
 
+
+  
+## Nota importante sull'uso di Cloudlfare 
+
+- Cloudflare viene utilizzato unicamente come backend e per gestire il DB.
+- tutto il deploy del codice backend avviene su Cloudlflare.
   
 
 ---
