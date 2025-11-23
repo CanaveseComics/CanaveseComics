@@ -28,13 +28,12 @@ questa branch verrà aggiornata tramite *merge* dei file finali provenienti dal 
 
 - Non caricare mai file manualmente su Netlify.
 - Non utilizzare la funzione "upload manuale" di Netlify.
-- Netlify viene utilizzato esclusivamente come piattaforma di hosting e gestione del dominio.
+- Netlify viene utilizzato esclusivamente come piattaforma gestione del dominio.
 - Tutto il deploy avviene tramite GitHub:  
-  → i file vengono aggiornati nel branch `main`  
-  → Netlify rileva automaticamente le modifiche e pubblica la versione aggiornata del sito.
+
+  
 
 ---
 
 ⚠️ Nota operativa:
-Non modificare questa branch durante lo sviluppo.  
-Tutte le attività di sviluppo avvengono nella repository dedicata (branch `dev`).
+Non modificare questa branch durante lo sviluppo. I test avvengono su un'altra repo di sviluppo.
