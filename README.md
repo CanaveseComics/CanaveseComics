@@ -1,4 +1,6 @@
-# Branch: main (Produzione)
+# Branch di produzione 
+
+# Canavese Comics
 
 Questo branch contiene la versione del sito pubblicata su Netlify
 e visibile agli utenti attraverso il dominio ufficiale.
