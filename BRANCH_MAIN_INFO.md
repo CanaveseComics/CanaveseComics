@@ -15,7 +15,7 @@ questa branch verrà aggiornata tramite *merge* dei file finali provenienti dal 
 
 ## Checklist produzione
 
-- [x] Pubblicare la pagina "Coming Soon" su Netlify
+- [x] Pubblicare la pagina "Coming Soon" su Github Pages
 - [x] Collegare dominio e certificato HTTPS
 - [ ] Eseguire il merge dei file finali provenienti dalla repository di sviluppo
 - [ ] Verificare il sito completo sul dominio ufficiale
