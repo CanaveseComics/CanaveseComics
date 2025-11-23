@@ -237,6 +237,26 @@ header {
   text-decoration: underline;
 }
 
+
+/* FOCUS RESET  */
+
+.menu {
+  -webkit-tap-highlight-color: transparent;  
+}
+
+.menu:focus {
+  outline: none;
+}
+
+.menu:focus-visible {
+  outline: none; 
+}
+
+.menu::-moz-focus-inner {
+  border: 0; 
+}
+
+
 /* MEDIA QUERIES */
 
 @media (max-width: 360px) {
